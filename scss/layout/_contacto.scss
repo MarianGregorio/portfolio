@@ -1,0 +1,39 @@
+.contact-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 80vh;
+    padding: 0 2rem;
+    background-color: rgba(27, 27, 50, 0.644);
+    border-radius: 5px;
+    .capa{
+        .contact-section-header{
+            h2{
+                font-size: 3rem;
+                color: #fff;
+                font-weight: 600;
+            }
+            p{
+                color: #fff;
+            }
+        }
+        .contact-links{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            width: 100%;
+            max-width: 950px;
+            margin-top: 4rem;
+            .btn-contact{
+                padding: 0.8rem 1.5rem;
+                border-radius: 5px;
+                font-size: 2.4rem;
+                color: #fff;
+                text-shadow: 2px 2px 1px $color-secundario;
+            }
+        }
+    }
+}

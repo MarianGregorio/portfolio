@@ -1,0 +1,26 @@
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 5rem;
+    background-color: $color-principal;
+    .logo{
+        color: #fff;
+        font-size: 1.5rem;
+    }
+    #navbar{
+        ul{
+            display: flex;
+            li{
+                margin: 0 10px;
+                a{
+                    color: #fff;
+                    padding-bottom: 5px;
+                    &:hover{
+                        border-bottom: 1px solid $color-secundario;
+                    }
+                }
+            }
+        }
+    }
+}
