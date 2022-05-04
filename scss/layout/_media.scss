@@ -7,11 +7,14 @@
             width: 60%;
             padding: 10px;
             h1{
-                font-size: 1.9rem;
+                font-size: 1.8rem;
             }
             a{
-                font-size: 1.2rem;
+                font-size: 1.3rem;
             }
+        }
+        .imagen{
+            margin-top: 1.2rem;
         }
     }
     .projects-section{
@@ -23,6 +26,50 @@
                     height: 300px;
                 }
             }
+        }
+    }
+}
+@media only screen and (min-width:873px){
+    #welcome-section{
+        .title{
+            h1{
+                font-size: 2.2rem;
+            }
+        }
+    }
+    .projects-section{
+        h2{
+            font-size: 2.5rem;
+        }
+    }
+}
+@media only screen and (min-width:1080px){
+    #welcome-section{
+        .title{
+            h1{
+                font-size: 3rem;
+            }
+        }
+    }
+    .projects-section{
+        h2{
+            font-size: 2.5rem;
+        }
+    }
+    .contact-section{
+        .capa{
+            .contact-section-header{
+                h2{
+                    font-size: 3rem;
+                }
+            }
+        }
+    }
+}
+@media only screen and (min-width:1200px){
+    #welcome-section{
+        .title{
+            width: 45%;
         }
     }
 }
