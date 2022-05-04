@@ -30,7 +30,10 @@ header {
   justify-content: space-around;
   align-items: center;
   height: 5rem;
-  background-color: #1b1b32; }
+  background-color: #1b1b32;
+  position: sticky;
+  top: 0;
+  z-index: 10000; }
   header .logo {
     color: #fff;
     font-size: 1.5rem; }
